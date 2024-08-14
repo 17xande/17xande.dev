@@ -1,0 +1,37 @@
+html {
+	color: white;
+	background-color: --background-color;
+	font-family: "Fira Code", monospace;
+	font-optical-sizing: auto;
+}
+
+#title {
+	display: flex;
+	height: 70vi;
+	justify-content: center;
+	align-items: center;
+
+	h1 {
+		color: orange;
+	}
+}
+
+#sidebar {
+	position: fixed;
+	top: 0;
+	left:0;
+	bottom: 0;
+	padding: 2rem;
+	margin: 0;
+	width: var(--sidebar-width);
+	background-color: var(--background-color);
+	border-right: solid var(--border-width) var(--border-color);
+}
+
+:root {
+	--sidebar-width: 70px;
+
+	--backgroun-color: hsl(240, 5.9%, 11%);
+	--border-width: 1px;
+	--border-color: hsl(240, 5.9%, 11%);
+}
