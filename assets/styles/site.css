@@ -5,6 +5,30 @@ html {
 	font-optical-sizing: auto;
 }
 
+/* TODO: a propper CSS reset*/
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  top: 0;
+  position: sticky;
+  border-width: 0 0 1px 0;
+  border-style: solid;
+  border-color: currentColor;
+  padding: 1.5rem;
+
+  h1 {
+    color: orange;
+    display: inline;
+  }
+}
+
+nav {
+  width: 100%;
+}
+
 #title {
 	display: flex;
 	height: 70vi;
