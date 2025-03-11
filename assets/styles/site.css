@@ -1,5 +1,5 @@
 @layer reset, base;
-@import url ("./reset.css") layer(reset);
+@import url("./reset.css") layer(reset);
 
 @layer base {
 
@@ -22,7 +22,7 @@
     border-width: 0 0 1px 0;
     border-style: solid;
     border-color: currentColor;
-    padding: 1.5rem;
+    padding: 1rem;
 
     h1 {
       color: orange;
@@ -30,7 +30,15 @@
     }
 
     nav {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
       width: 100%;
+
+      ul {
+        display: flex;
+        gap: 2rem;
+      }
     }
 
   }
@@ -47,7 +55,7 @@
 
   #title {
     display: flex;
-    height: 70vi;
+    height: 20vi;
     justify-content: center;
     align-items: center;
 
@@ -74,5 +82,11 @@
     --backgroun-color: hsl(240, 5.9%, 11%);
     --border-width: 1px;
     --border-color: hsl(240, 5.9%, 11%);
+  }
+
+  .logo {
+    color: orange;
+    text-decoration: none;
+    font-weight: bold;
   }
 }
