@@ -34,6 +34,12 @@ main {
   background-image: radial-gradient(88.8% 100% at 50% 100%, #1d1814, #110d08 61.34%)
 }
 
+textarea {
+	field-sizing: content;
+	min-height: 100px;
+	min-width: 400px;
+}
+
 #title {
 	display: flex;
 	height: 70vi;
